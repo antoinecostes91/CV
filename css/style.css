@@ -1,0 +1,113 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Lato";
+	list-style: none;
+	text-decoration: none;
+}
+
+#wrap {
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 1000px;
+	padding: 206px 30px 30px 30px;
+	margin:auto;
+	border-radius: 10px;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+body {
+	background-image: url('../images/network.jpg');
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+#container-header {
+	background-color: #FFF;
+	text-align: center;
+}
+
+.cols-coord {
+	display: inline-block;
+	margin: 15px 30px 15px 0;
+	vertical-align: top;
+}
+
+.cols-coord:first-child {
+	margin-left: 15px;
+}
+
+.coord {
+	font-size: 14px;
+	text-align: center;	
+}
+
+#photo {
+	display: inline-block;
+	border: solid 4px #ccc;
+	margin-right: 15px;
+}
+
+#container-nav {
+	background: #FFF;
+	padding: 15px;
+	display: block;
+}
+
+#nav {
+	text-align: center;
+}
+
+.nav-link {
+	display: inline-block;
+	margin-right: 15px;	
+}
+
+.nav-link > a {
+	color: #444;
+}
+
+.nav-link:first-child {
+	margin-left: 15px;
+}
+
+.nav-link:last-child > a {
+	color: #19a3fb;
+}
+
+hr {
+	margin: 30px 0 30px;
+}
+
+#form {
+	margin-top: 30px;
+	color: #FFF;
+}
+
+#form > fieldset {
+	margin: auto;
+}
+
+#form-container > label {
+	margin-bottom: 30px;
+}
+
+#form-container {
+	width: 300px;
+	margin: auto;
+
+}
+
+#form-container > input[type="text"] {
+	width: 200px;
+	height: 35px;
+	border-radius: 5px;
+	padding: 10px;
+	appearance: none;
+  	box-shadow: none;
+  	border: none;
+}
